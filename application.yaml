@@ -1,0 +1,13 @@
+server:
+  port: 4444
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: iraianbu12!
+    url: jdbc:mysql://localhost:3306/user
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+welcome:
+  msg: '"Hello Iraiiii"'
