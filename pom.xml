@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
 	<version>1</version>
-	<name>demo</name>
+	<name>Department-Rest</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>21</java.version>
@@ -83,6 +83,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>Department-Rest</finalName>
 	</build>
 
 </project>

@@ -53,7 +53,7 @@ public class DepartmentServiceImpl implements DepartmentService{
     @Override
     public Department getDepartmentById(Long id) throws DepartmentNotFoundException {
         Optional<Department> optionalDepartment = departmentRepository.findById(id);
-        if(!optionalDepartment.isPresent()){
+        if(optionalDepartment.isEmpty()){
             throw new DepartmentNotFoundException("Department Not Found");
         }
         return optionalDepartment.get();
