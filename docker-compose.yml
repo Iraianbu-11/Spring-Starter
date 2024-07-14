@@ -1,6 +1,6 @@
 services:
   spring-boot-app:
-    image: iraianbu/spring-boot-rest-api:1
+    image: iraianbu/spring-boot-rest-api:latest
     container_name: rest-api
     restart: always
     ports:

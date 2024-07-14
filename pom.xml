@@ -83,7 +83,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>Department-Rest</finalName>
+		<finalName>App</finalName>
 	</build>
 
 </project>
